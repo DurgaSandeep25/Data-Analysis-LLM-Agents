@@ -1,10 +1,16 @@
 # Aira-LLM-Agents
 Installation Guidelines: Virtual environment is preferred over global environment
 1. conda create --name Aira python=3.9
-2. pip install pandas numpy openai langchain langchain-experimental langchain-openai
-3. pip install tabulate langchainhub scikit-learn
-4. pip install matplotlib
-5. pip install streamlit python-dotenv
+2. conda activate Aira
+3. pip install pandas numpy openai langchain langchain-experimental langchain-openai
+4. pip install tabulate langchainhub scikit-learn
+5. pip install matplotlib
+6. pip install streamlit python-dotenv
+
+(or)
+1. conda create --name Aira python=3.9
+2. conda activate Aira
+3. pip install requirements.txt
 
 # Dataset url - download and add it in your data
 - https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/data
