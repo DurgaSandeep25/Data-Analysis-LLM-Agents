@@ -1,0 +1,107 @@
+question,columns
+How many unique source system types are present?,['SOURCE_SYSTEM_TYPE']
+What is the average fire size across all incidents?,['FIRE_SIZE']
+What is the total number of incidents reported by each source system?,['SOURCE_SYSTEM']
+How many unique reporting agencies are present in the dataset?,['NWCG_REPORTING_AGENCY']
+What is the distribution of fire causes (statistical) across all incidents?,['STAT_CAUSE_DESCR']
+Which state had the highest average fire size (in acres)?,"['STATE', 'FIRE_SIZE']"
+How many incidents were reported in each county?,['COUNTY']
+What is the proportion of each fire size class in the dataset?,['FIRE_SIZE_CLASS']
+How many fires were reported each year?,['FIRE_YEAR']
+What is the average fire size for each source reporting unit?,"['SOURCE_REPORTING_UNIT_NAME', 'FIRE_SIZE']"
+How does the distribution of fire causes vary across different source systems?,"['SOURCE_SYSTEM', 'STAT_CAUSE_DESCR']"
+What is the total number of incidents reported by each state?,['STATE']
+How many unique fire names are there in the dataset?,['FIRE_NAME']
+What is the average fire size for each county?,"['COUNTY', 'FIRE_SIZE']"
+Which source system has the highest number of incidents reported?,['SOURCE_SYSTEM']
+What is the average fire size for each reporting agency?,"['NWCG_REPORTING_AGENCY', 'FIRE_SIZE']"
+How many incidents were reported in each month?,['DISCOVERY_DATE']
+What is the distribution of fire size classes across all incidents?,['FIRE_SIZE_CLASS']
+How many fires were reported by each owner entity?,['OWNER_DESCR']
+What is the average fire size for each year?,"['FIRE_YEAR', 'FIRE_SIZE']"
+How many fires were reported by each reporting unit?,['SOURCE_REPORTING_UNIT_NAME']
+What is the average fire size for each state?,"['STATE', 'FIRE_SIZE']"
+What is the average fire size for each source system type?,"['SOURCE_SYSTEM_TYPE', 'FIRE_SIZE']"
+What is the distribution of fire causes within each state?,"['STATE', 'STAT_CAUSE_DESCR']"
+How many incidents were reported by each owner entity?,['OWNER_DESCR']
+What is the average fire size for each fire cause?,"['STAT_CAUSE_DESCR', 'FIRE_SIZE']"
+How many unique fire codes are present in the dataset?,['FIRE_CODE']
+What is the average fire size for each source system?,"['SOURCE_SYSTEM', 'FIRE_SIZE']"
+What is the total number of incidents reported by each owner entity?,['OWNER_DESCR']
+How many incidents were reported in each source system?,['SOURCE_SYSTEM']
+What is the distribution of fire causes within each county?,"['COUNTY', 'STAT_CAUSE_DESCR']"
+How many unique fire names are there in the dataset for each state?,"['STATE', 'FIRE_NAME']"
+What is the average fire size for each fire code?,"['FIRE_CODE', 'FIRE_SIZE']"
+What is the average fire size for each fire name?,"['FIRE_NAME', 'FIRE_SIZE']"
+What is the total number of incidents reported by each source reporting unit?,['SOURCE_REPORTING_UNIT_NAME']
+What is the distribution of fire causes within each source system?,"['SOURCE_SYSTEM', 'STAT_CAUSE_DESCR']"
+What is the average fire size for each fire class?,"['FIRE_SIZE_CLASS', 'FIRE_SIZE']"
+What is the total number of incidents reported by each county?,['COUNTY']
+How many incidents were reported in each source system type?,['SOURCE_SYSTEM_TYPE']
+How many unique fire names are there in the dataset for each source system?,"['SOURCE_SYSTEM', 'FIRE_NAME']"
+What is the distribution of fire causes within each reporting agency?,"['NWCG_REPORTING_AGENCY', 'STAT_CAUSE_DESCR']"
+How many incidents were reported by each state?,['STATE']
+How many unique fire names are there in the dataset for each county?,"['COUNTY', 'FIRE_NAME']"
+How many incidents were reported in each year?,['FIRE_YEAR']
+What is the distribution of fire causes within each source system type?,"['SOURCE_SYSTEM_TYPE', 'STAT_CAUSE_DESCR']"
+What is the average fire size for each owner entity?,"['OWNER_DESCR', 'FIRE_SIZE']"
+What is the total number of incidents reported by each source system type?,['SOURCE_SYSTEM_TYPE']
+What is the distribution of fire causes within each source reporting unit?,"['SOURCE_REPORTING_UNIT_NAME', 'STAT_CAUSE_DESCR']"
+Total number of unique source system types?,['SOURCE_SYSTEM_TYPE']
+Average fire size across all incidents?,['FIRE_SIZE']
+Total number of incidents reported by each source system?,['SOURCE_SYSTEM']
+Number of unique reporting agencies in the dataset?,['NWCG_REPORTING_AGENCY']
+Distribution of fire causes (statistical) across all incidents?,['STAT_CAUSE_DESCR']
+State with the highest average fire size (in acres)?,"['STATE', 'FIRE_SIZE']"
+Number of incidents reported in each county?,['COUNTY']
+Proportion of each fire size class in the dataset?,['FIRE_SIZE_CLASS']
+Number of fires reported each year?,['FIRE_YEAR']
+Average fire size for each source reporting unit?,"['SOURCE_REPORTING_UNIT_NAME', 'FIRE_SIZE']"
+Distribution of fire causes vary across different source systems?,"['SOURCE_SYSTEM', 'STAT_CAUSE_DESCR']"
+Total number of incidents reported by each state?,['STATE']
+Number of unique fire names in the dataset?,['FIRE_NAME']
+Average fire size for each county?,"['COUNTY', 'FIRE_SIZE']"
+Source system with the highest number of incidents reported?,['SOURCE_SYSTEM']
+Average fire size for each reporting agency?,"['NWCG_REPORTING_AGENCY', 'FIRE_SIZE']"
+Number of fires reported by each owner entity?,['OWNER_DESCR']
+Average fire size for each year?,"['FIRE_YEAR', 'FIRE_SIZE']"
+Average fire size for each source system?,"['SOURCE_SYSTEM', 'FIRE_SIZE']"
+What is the total number of fires reported by each NWCG reporting agency?,['NWCG_REPORTING_AGENCY']
+Which year had the highest number of fires?,['FIRE_YEAR']
+What is the percentage of fires that were contained within the same day they were discovered?,"['DISCOVERY_DATE', 'CONT_DATE']"
+"Among all the fires, how many were managed under a complex name?",['COMPLEX_NAME']
+"What is the average time taken to contain a fire, categorized by fire size class?","['FIRE_SIZE_CLASS', 'CONT_TIME', 'DISCOVERY_TIME']"
+Which NWCG unit has reported the highest total fire size?,"['NWCG_REPORTING_UNIT_NAME', 'FIRE_SIZE']"
+What is the distribution of fire sizes across different owner types?,"['OWNER_DESCR', 'FIRE_SIZE']"
+How many fires were caused by lightning strikes vs. human activities?,['STAT_CAUSE_DESCR']
+Are there any discernible trends in the distribution of fire sizes over the years?,"['FIRE_YEAR', 'FIRE_SIZE']"
+What is the average fire size for each fire cause in each state?,"['STATE', 'STAT_CAUSE_DESCR', 'FIRE_SIZE']"
+How does the distribution of fire causes vary across different NWCG reporting agencies and source systems?,"['NWCG_REPORTING_AGENCY', 'SOURCE_SYSTEM', 'STAT_CAUSE_DESCR']"
+"What is the total number of incidents reported by each state, county, and source system type?","['STATE', 'COUNTY', 'SOURCE_SYSTEM_TYPE']"
+What is the average fire size for each source reporting unit in each state?,"['STATE', 'SOURCE_REPORTING_UNIT_NAME', 'FIRE_SIZE']"
+"How many incidents were reported in each year, state, and fire cause?","['FIRE_YEAR', 'STATE', 'STAT_CAUSE_DESCR']"
+"What is the distribution of fire causes within each county, source system, and fire size class?","['COUNTY', 'SOURCE_SYSTEM', 'FIRE_SIZE_CLASS', 'STAT_CAUSE_DESCR']"
+"What is the total number of incidents reported by each owner entity, state, and source reporting unit?","['OWNER_DESCR', 'STATE', 'SOURCE_REPORTING_UNIT_NAME']"
+"How many unique fire names are there in the dataset for each state, county, and source system?","['STATE', 'COUNTY', 'SOURCE_SYSTEM', 'FIRE_NAME']"
+What is the average fire size for each fire class in each state and county?,"['STATE', 'COUNTY', 'FIRE_SIZE_CLASS', 'FIRE_SIZE']"
+"What is the average fire size for each fire cause in each state, county, and source reporting unit?","['STATE', 'COUNTY', 'SOURCE_REPORTING_UNIT_NAME', 'STAT_CAUSE_DESCR', 'FIRE_SIZE']"
+What is the average fire size for each fire cause in each state and county?,"['STATE', 'COUNTY', 'STAT_CAUSE_DESCR', 'FIRE_SIZE']"
+"How does the distribution of fire causes vary across different NWCG reporting agencies, source systems, and fire size classes?","['NWCG_REPORTING_AGENCY', 'SOURCE_SYSTEM', 'FIRE_SIZE_CLASS', 'STAT_CAUSE_DESCR']"
+"What is the total number of incidents reported by each state, county, and owner entity?","['STATE', 'COUNTY', 'OWNER_DESCR']"
+What is the average fire size for each fire class in each state and source reporting unit?,"['STATE', 'SOURCE_REPORTING_UNIT_NAME', 'FIRE_SIZE_CLASS', 'FIRE_SIZE']"
+"How many incidents were reported in each year, state, and fire size class?","['FIRE_YEAR', 'STATE', 'FIRE_SIZE_CLASS']"
+"What is the distribution of fire causes within each county, source system type, and fire size class?","['COUNTY', 'SOURCE_SYSTEM_TYPE', 'FIRE_SIZE_CLASS', 'STAT_CAUSE_DESCR']"
+"What is the total number of incidents reported by each owner entity, state, and fire cause?","['OWNER_DESCR', 'STATE', 'STAT_CAUSE_DESCR']"
+"How many unique fire names are there in the dataset for each state, county, and source system type?","['STATE', 'COUNTY', 'SOURCE_SYSTEM_TYPE', 'FIRE_NAME']"
+"What is the average fire size for each fire class in each state, county, and source reporting unit?","['STATE', 'COUNTY', 'SOURCE_REPORTING_UNIT_NAME', 'FIRE_SIZE_CLASS', 'FIRE_SIZE']"
+"What is the average fire size for each fire cause in each state, county, and year?","['STATE', 'COUNTY', 'FIRE_YEAR', 'STAT_CAUSE_DESCR', 'FIRE_SIZE']"
+"How does the distribution of fire causes vary across different NWCG reporting agencies, source systems, and years?","['NWCG_REPORTING_AGENCY', 'SOURCE_SYSTEM', 'FIRE_YEAR', 'STAT_CAUSE_DESCR']"
+"What is the total number of incidents reported by each state, county, and source reporting unit?","['STATE', 'COUNTY', 'SOURCE_REPORTING_UNIT_NAME']"
+"What is the average fire size for each fire class in each state, county, and owner entity?","['STATE', 'COUNTY', 'OWNER_DESCR', 'FIRE_SIZE_CLASS', 'FIRE_SIZE']"
+"How many incidents were reported in each month, state, and fire size class?","['DISCOVERY_DATE', 'STATE', 'FIRE_SIZE_CLASS']"
+"What is the distribution of fire causes within each county, source system, and year?","['COUNTY', 'SOURCE_SYSTEM', 'FIRE_YEAR', 'STAT_CAUSE_DESCR']"
+"What is the total number of incidents reported by each state, county, and source system?","['STATE', 'COUNTY', 'SOURCE_SYSTEM']"
+"What is the average fire size for each fire class in each state, county, and fire cause?","['STATE', 'COUNTY', 'STAT_CAUSE_DESCR', 'FIRE_SIZE_CLASS', 'FIRE_SIZE']"
+"How does the distribution of fire causes vary across different NWCG reporting agencies, source systems, and counties?","['NWCG_REPORTING_AGENCY', 'SOURCE_SYSTEM', 'COUNTY', 'STAT_CAUSE_DESCR']"
+"What is the total number of incidents reported by each state, county, and fire size class?","['STATE', 'COUNTY', 'FIRE_SIZE_CLASS']"
+"What is the average fire size for each fire cause in each state, county, and source system?","['STATE', 'COUNTY', 'SOURCE_SYSTEM', 'STAT_CAUSE_DESCR', 'FIRE_SIZE']"

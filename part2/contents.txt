@@ -1,0 +1,10 @@
+Flow of the SQL Agent - I have optimized the whole pipeline by only passing relevant column information
+1. Input: Question/Query
+2. Retrieve top k columns
+3. Custom SQL Prompt - with only top k columns information
+4. Generate SQL Query and Validate
+5. Extract SQL Snippet if required (to handle noisy outputs from LLM)
+6. Query Execution
+7. Pandas Agent - to further analyze the data
+
+Note: Base code of langchain is modified to incorporate custom prompt in sql agent. Install using the modified langchain file

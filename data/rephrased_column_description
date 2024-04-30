@@ -1,0 +1,38 @@
+,rephrased_description
+0,- FOD_ID - Global unique identifier
+1,- FPA_ID - Unique identifier for tracking back to original record
+2,- SOURCE_SYSTEM_TYPE - Type of source database or system
+3,- SOURCE_SYSTEM - Name or identifier of source database or system
+4,- NWCG_REPORTING_AGENCY - Active NWCG Unit Identifier for agency
+5,- NWCG_REPORTING_UNIT_ID - Active NWCG Unit Identifier for unit
+6,- NWCG_REPORTING_UNIT_NAME - Active NWCG Unit Name for unit
+7,- SOURCE_REPORTING_UNIT - Code for agency unit preparing fire report
+8,- SOURCE_REPORTING_UNIT_NAME - Name of reporting agency unit
+9,- LOCAL_FIRE_REPORT_ID - Unique incident report identifier
+10,- LOCAL_INCIDENT_ID - Unique incident identifier for local organization
+11,- FIRE_CODE - Code for tracking cost information for fire suppression
+12,- FIRE_NAME - Name of the incident
+13,- ICS_209_INCIDENT_NUMBER - Incident identifier from ICS-209 report
+14,- ICS_209_NAME - Name of the incident from ICS-209 report
+15,- MTBS_ID - Incident identifier from MTBS perimeter dataset
+16,- MTBS_FIRE_NAME - Name of the incident from MTBS perimeter dataset
+17,- COMPLEX_NAME - Name of the complex managing the fire
+18,- FIRE_YEAR - Calendar year of fire discovery
+19,- DISCOVERY_DATE - Date of fire discovery
+20,- DISCOVERY_DOY - Day of year of fire discovery
+21,- DISCOVERY_TIME - Time of fire discovery
+22,- STAT_CAUSE_CODE - Code for statistical cause of fire
+23,- STAT_CAUSE_DESCR - Description of statistical cause of fire
+24,- CONT_DATE - Date fire was declared contained
+25,- CONT_DOY - Day of year fire was declared contained
+26,- CONT_TIME - Time fire was declared contained
+27,- FIRE_SIZE - Estimate of acres within fire perimeter
+28,- FIRE_SIZE_CLASS - Code for fire size based on acres
+29,- LATITUDE - Latitude of fire location
+30,- LONGITUDE - Longitude of fire location
+31,- OWNER_CODE - Code for primary owner or entity responsible
+32,- OWNER_DESCR - Name of primary owner or entity responsible
+33,- STATE - Two-letter state code where fire burned
+34,- COUNTY - County where fire burned
+35,- FIPS_CODE - Three-digit code for county representation
+36,- FIPS_NAME - County name from FIPS publication
