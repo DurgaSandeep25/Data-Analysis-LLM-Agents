@@ -12,7 +12,7 @@ Installation Guidelines: Virtual environment is preferred over global environmen
 2. cd streamlit
 3. streamlit run app.py or streamlit run app.py --server.fileWatcherType none
 
-!![alt text][https://github.com/DurgaSandeep25/Aira-LLM-Agents/blob/main/demo/streamlit_examples/0_interface.PNG]
+![alt text][https://github.com/DurgaSandeep25/Aira-LLM-Agents/blob/main/demo/streamlit_examples/0_interface.PNG]
 
 # Dataset url - download and add it in your data
 - https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/data
