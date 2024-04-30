@@ -17,14 +17,15 @@ Note: Virtual environment is preferred over global environment
 - https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/data
 - https://drive.google.com/file/d/14Q3tXrebIwoNOOFsVTP3jj_7VQjxJ7KX/view?usp=sharing
 
-# Important:
+# Key Changes:
 1. Add your openai credentials in the openai_creds - both key and url
 2. Instead of langchain from pip, I have restructured some of the code in langchain source code, please install from there
     - cd langchain/libs/langchain
     - pip install -e .
 3. OpenAI has variability even though we set temperature=0.0 (can be related to the security reasons) - please re-run or change our prompt (few changes) to get desired outputs
 
-# Usage Guidelines: Please refer demo folder for examples
+# Usage Guidelines: 
+Please refer demo folder for examples
 - retrieve_performance.ipynb
     - helps to scale our agents to very large datasets
     - to evaluate the robustness of our system 
